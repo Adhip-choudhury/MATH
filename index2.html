@@ -1,42 +1,57 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>MATH GAME START</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Math Game Started!</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-<link rel="stylesheet"  href="game.css">
-
-
 </head>
 <body>
-<h4 id="player1">dfffff</h4><span id="scor1"></span>
-<br>
-<h4 id="player2">eee</h4><span id="scor2"></span>
-	<center id="dddd">
-     <h1>MATH GAME START</h1>
-    <div  class="col-lg-4 col-sm-8 col-xs-11 login_div1">
-     <h3>Player 1 Q</h3>
+    <h4 id="player1_name"></h4><span id="player_1_score"></span><br>
+    <h4 id="player2_name"></h4><span id="player_2_score"></span><br>
+<div class="container"></div>
+    <center>
+    <h2>MATH GAE START!</h2>
+    <h3 id="player_Q"></h3>
+    <h3 id="player_A"></h3>
+    <div class="output">
 
-	 <input class="form-control"  placeholder="player 1 " id="player1_name" type="text">
-	</div>
-	<br>
-	<div  class="col-lg-4 col-sm-8 col-xs-11 login_div2">
-		<h3>Player 2 for login for game</h3>
+    </div>
+   <br>
+   <br>
+   <br>
+   <label>Send You Word: <b style="color: red">Try putting word which has 5 or more alphabet</b></label>
+   <br>
+   <input style="margin: 10px;" id="word1" placeholder="Enter the number" type="text">
+   <br>
+   <br>
+   <input style="margin: 10px;" id="word2" placeholder="Enter the number" type="text">
+   <br>
+   <br>
 
-		<input class="form-control"  placeholder="player 1" id="player2_name" type="text">
-	   </div>
-     <br>
-	 <button style="width: 30%;" class="btn btn-success" onclick="Login()" >Ask Ouestion</button>
-	</center>
-	<script src="main.js"></script>
+   <button style="width: 30%;" class="btn btn-success" onclick="Send()">Ask Question</button>
 
-	<style>
+
     
+</center>
+</div>
 
-	</style>
+
+    <script>
+    var player1_name=localStorage.getItem("player 1: ")
+    var playe2_name=localStorage.getItem("player 2: ")
+    var opration=["+","-","*"];
+   
+    function Send(){
+        var number=0;
+        
+    }
+
+
+    </script>
 </body>
+
+
+
 </html>

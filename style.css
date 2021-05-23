@@ -1,4 +1,4 @@
-body
+ body
 {
     background: linear-gradient( #33ccff 0%, #ff99cc 100%);
 	width: 100%;
@@ -21,13 +21,13 @@ body
 }
 #word
 {
-	width: 60%;
-}
+	width: 60%; 
+} 
 #word_display
 {
 	letter-spacing: 5px;
 }
-#output
+.output
 {
 background: white;
 border-radius: 10px;
@@ -35,5 +35,6 @@ border-top: 10px solid #AA4465;
 padding: 10px;
 float: none;
 text-align: left;
+width: 40%;
 }
 
